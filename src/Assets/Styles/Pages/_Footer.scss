@@ -1,0 +1,95 @@
+footer {
+  height: 60px;
+  width: 100%;
+  background: $gradient1;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nameOfBuild {
+    position: absolute;
+    color: $color1;
+    font-family: Calibri;
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+
+  .setting {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .cadre,
+    .annonce {
+      margin: 0 20px;
+      padding: 0 30px;
+      border-radius: 5px;
+      border: 1px solid $color3;
+      background: $color2;
+
+      h1,
+      .timerAnnonce {
+        color: $color1;
+        font-family: Calibri;
+      }
+
+      p {
+        margin: auto;
+        padding-right: 20px;
+      }
+    }
+    .annonce {
+      display: flex;
+      color: $color1;
+      font-family: Calibri;
+    }
+    .button-b {
+      background: none;
+      border: none;
+      margin: 0 10px;
+      width: 75px;
+
+      i {
+        font-size: 48px;
+        color: whitesmoke;
+      }
+
+      &:hover i {
+        font-size: 48px;
+        color: #09c;
+      }
+
+      &:active i {
+        transform: translateY(4px);
+      }
+    }
+
+    progress {
+      margin: 0 20px;
+      -webkit-appearance: none;
+      appearance: none;
+      width: 400px;
+      height: 22px;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+
+      &::-webkit-progress-value {
+        background-image: -webkit-linear-gradient(
+            -45deg,
+            transparent 33%,
+            rgba(0, 0, 0, 0.1) 33%,
+            rgba(0, 0, 0, 0.1) 66%,
+            transparent 66%
+          ),
+          -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+          -webkit-linear-gradient(left, #09c, #f44);
+
+        border-radius: 2px;
+        background-size: 35px 20px, 100% 100%, 100% 100%;
+      }
+    }
+  }
+}

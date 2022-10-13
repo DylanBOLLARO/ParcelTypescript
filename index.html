@@ -4,11 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      http-equiv="refresh"
-      content="0; url=https://repo.github.io/src/index.html"
+    <title>SoundWaveSc2</title>
+    <link rel="stylesheet" href="./src/Assets/Styles/Pages/index.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="popupMaster">
+      <h1></h1>
+      <div class="btnOfPopupMaster">
+        <input class="btnYes" type="button" value="" />
+        <input class="btnNo" type="button" value="" />
+      </div>
+    </div>
+
+    <header>
+      <div class="left">
+        <button id="menu" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+        <button id="prev" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-chevron-left fa-2x"></i>
+        </button>
+        <button id="next" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-chevron-right fa-2x"></i>
+        </button>
+      </div>
+      <div class="midle">
+        <button id="home" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-house fa-2x"></i>
+        </button>
+        <input class="search" id="search" type="search" placeholder="Search" />
+      </div>
+      <div class="right">
+        <button id="" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-right-to-bracket fa-2x"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="app">
+      <div class="select">
+        <div class="buildList"></div>
+      </div>
+      <div class="mainView">
+        <div class="view"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="nameOfBuild"></div>
+      <div class="setting">
+        <button id="btnReset" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-arrows-rotate fa-2x"></i>
+        </button>
+        <button id="btnPlay" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-play fa-2x"></i>
+        </button>
+        <button id="btnPause" class="btnFontWwesome" type="button">
+          <i class="fa-solid fa-pause fa-2x"></i>
+        </button>
+        <div class="cadre">
+          <h1 id="timer">00:00</h1>
+        </div>
+        <progress id="file" max="100" value="100"></progress>
+        <div class="btn-C">
+          <button id="btnVolume" class="btnFontWwesome" type="button">
+            <i id="btnDeVolumeCouleur" class="fa-solid fa-volume-off fa-2x"></i>
+          </button>
+        </div>
+        <div class="annonce">
+          <p id="nbNextAnnonce">Prochaine annonce:</p>
+          <h1 id="timerAnnonce">0</h1>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./src/js/index.js"></script>
+  </body>
 </html>

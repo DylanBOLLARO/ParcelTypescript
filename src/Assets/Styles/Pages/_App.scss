@@ -1,0 +1,160 @@
+#Terran {
+  background: url(../../img/TERRAN.png);
+  &:hover {
+    box-shadow: 5px 0px rgb(150, 23, 0), -5px 0px rgb(150, 23, 0);
+    p {
+      letter-spacing: 10px;
+      transition: 0.5s;
+      font-weight: bold;
+    }
+  }
+}
+
+#Zerg {
+  background: url(../../img/ZERG.png);
+  &:hover {
+    box-shadow: 5px 0px rgb(102, 26, 116), -5px 0px rgb(102, 26, 116);
+    p {
+      letter-spacing: 10px;
+      transition: 0.5s;
+      font-weight: bold;
+    }
+  }
+}
+
+#Protoss {
+  background: url(../../img/PROTOSS.png);
+
+  &:hover {
+    box-shadow: 5px 0px rgb(62, 99, 148), -5px 0px rgb(62, 99, 148);
+    p {
+      letter-spacing: 10px;
+      transition: 0.5s;
+      font-weight: bold;
+    }
+  }
+}
+
+.app {
+  height: calc(100vh - 120px);
+  display: flex;
+  gap: 5px;
+
+  .select {
+    background: $color2;
+    max-width: 300px;
+    width: 100%;
+    min-width: 160px;
+    height: auto;
+    padding: 5px;
+    border-radius: 0 4px 4px 0;
+
+    .buildList {
+      .card,
+      .cardBuild {
+        border: 1px solid black;
+        height: 50px;
+        background: $gradient1;
+        margin: 10px 0;
+        border-radius: 6px;
+        text-align: left;
+        transition: 0.3s;
+        color: whitesmoke;
+        font-family: Calibri;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        cursor: pointer;
+
+        p {
+          font-size: 1.5rem;
+          padding-left: 15px;
+          transition: 0.5s;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .mainView {
+    border-radius: 4px 0 0 4px;
+    height: auto;
+    width: 100%;
+    min-width: 500px;
+    color: $color3;
+    padding: 20px;
+    overflow-y: scroll;
+    background: $color2;
+
+    .view {
+      background: no-repeat url("../../img/SWlogo.png");
+      background-size: contain;
+      width: 600px;
+      height: 400px;
+      margin: 150px auto 0;
+    }
+
+    /* Global */
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 50px;
+    }
+
+    /* Ascenseur */
+    &::-webkit-scrollbar-thumb {
+      background: rgb(176, 156, 122);
+      border-radius: 4px;
+      border-top: 1px white solid;
+    }
+
+    h1,
+    h2,
+    p {
+      font-family: Calibri;
+    }
+
+    .card-name-bo {
+      background: rgb(128, 128, 128);
+      border-radius: 5px;
+      padding: 0 5px;
+    }
+
+    .toto {
+      margin-right: 20px;
+    }
+
+    /* espacement */
+
+    table {
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+      border: 0px solid grey;
+      font-family: Calibri;
+    }
+
+    thead th:nth-child(1) {
+      width: 10%;
+    }
+
+    thead th:nth-child(2) {
+      width: 10%;
+    }
+
+    thead th:nth-child(3) {
+      width: 30%;
+    }
+
+    thead th:nth-child(4) {
+      width: 50%;
+    }
+
+    th,
+    td {
+      padding: 20px;
+      border: 1px solid grey;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+  }
+}

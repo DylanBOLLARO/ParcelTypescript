@@ -1,0 +1,147 @@
+{
+  "Terran": {
+    "battlecruisers": {
+      "name": "Battlecruisers & Hellions",
+      "Description": "This Hellion and Battlecruiser build is the most popular build in TvZ now. The combination of Battlecruisers and Hellions is very popular in the match up now. The build can transition to either mech or bio, but mech is the more common option of the two.",
+      "Suite": "Attaquer avec le BC et les hellions, rajouter des usines, faire des unités en continu.",
+      "bo": [
+        [[14], [17], ["Supply Depot"], [""]],
+        [[15], [40], ["Barracks"], [""]],
+        [[16], [43], ["Refinery"], [""]],
+        [[19], [87], ["Reaper, Orbital Command"], [""]],
+        [[20], [101], ["Command Center"], [""]],
+        [[21], [115], ["Supply Depot"], [""]],
+        [[21], [121], ["Marine"], [""]],
+        [[23], [129], ["Factory"], [""]],
+        [[23], [134], ["Refinery"], [""]],
+        [[24], [143], ["Barracks Reactor"], [""]],
+        [[26], [173], ["Starport"], [""]],
+        [[26], [174], ["Orbital Command"], [""]],
+        [[29], [186], ["Hellion x2"], [""]],
+        [[29], [190], ["Supply Depot"], [""]],
+        [[36], [207], ["Hellion x2"], [""]],
+        [[36], [211], ["Fusion Core"], [""]],
+        [[40], [223], ["Starport Tech Lab"], [""]],
+        [[40], [230], ["Command Center"], [""]],
+        [[42], [240], ["Hellion x2"], [""]],
+        [[46], [244], ["Supply Depot"], [""]],
+        [[48], [263], ["Battlecruiser"], [""]],
+        [[56], [278], ["Refinery x2"], [""]],
+        [[56], [285], ["Supply Depot"], [""]],
+        [[58], [292], ["Hellion x2"], [""]],
+        [[62], [304], ["Orbital Command"], [""]]
+      ]
+    },
+    "bio3CC": {
+      "name": "Bio 3 CC",
+      "Description": "Hellion in to 2 Medivac Drop into more medivac + mm",
+      "Suite": "",
+      "bo": [
+        [[14], [17], ["Supply Depot"], [""]],
+        [[15], [40], ["Barracks"], [""]],
+        [[16], [43], ["Refinery"], [""]],
+        [[19], [87], ["Reaper, Orbital Command"], [""]],
+        [[20], [102], ["Command Center"], [""]],
+        [[20], [110], ["Supply Depot"], [""]],
+        [[21], [118], ["Marine"], [""]],
+        [[22], [128], ["Factory"], [""]],
+        [[23], [140], ["Barracks Reactor"], [""]],
+        [[25], [162], ["Command Center"], [""]],
+        [[26], [174], ["Orbital Command"], [""]],
+        [[27], [180], ["Starport"], [""]],
+        [[27], [187], ["Hellion"], [""]],
+        [[29], [193], ["Hellion"], [""]],
+        [[29], [198], ["Refinery"], [""]],
+        [[33], [209], ["Hellion"], [""]],
+        [[37], [214], ["Hellion"], [""]],
+        [[37], [218], ["Viking"], [""]],
+        [[41], [226], ["Barracks Tech Lab"], [""]],
+        [[43], [234], ["Orbital Command"], [""]],
+        [[43], [238], ["Hellion x2"], [""]],
+        [[49], [248], ["Supply Depot"], [""]],
+        [[49], [253], ["Liberator"], [""]],
+        [[49], [255], ["Marine"], [""]],
+        [[55], [264], ["Hellion x2"], [""]],
+        [[62], [272], ["Supply Depot"], [""]],
+        [[62], [275], ["Stimpack"], [""]],
+        [[62], [276], ["Marine"], [""]],
+        [[65], [281], ["Supply Depot"], [""]],
+        [[67], [290], ["Barracks x2"], [""]],
+        [[68], [293], ["Factory Reactor"], [""]],
+        [[68], [294], ["Marine"], [""]],
+        [[71], [305], ["Engineering Bay x2"], [""]],
+        [[71], [306], ["Refinery x2, Starport Reactor"], [""]],
+        [[71], [309], ["Orbital Command"], [""]],
+        [[71], [317], ["Marine"], [""]],
+        [[76], [335], ["Marine"], [""]],
+        [[76], [339], ["Factory Tech Lab, +1/+1"], [""]],
+        [[80], [344], ["Marine x4"], [""]],
+        [[80], [346], ["Medivac x2"], [""]],
+        [[81], [364], ["Siege Tank"], [""]],
+        [[82], [371], ["Barracks x2"], [""]],
+        [[89], [387], ["Refinery"], [""]],
+        [[92], [395], ["Combat Shield, Medivac x2"], [""]],
+        [[101], [408], ["Siege Tank"], [""]],
+        [[108], [426], ["Barracks Reactor x2"], [""]],
+        [[107], [429], ["Barracks x3"], [""]],
+        [[110], [438], ["Medivac x2"], [""]],
+        [[110], [441], ["Armory"], [""]],
+        [[116], [446], ["Siege Tank"], [""]],
+        [[122], [459], ["Missile Turret"], [""]],
+        [[124], [468], ["Medivac x2"], [""]],
+        [[135], [495], ["Siege Tank"], [""]],
+        [[135], [498], ["Medivac"], [""]],
+        [[142], [507], ["Medivac"], [""]],
+        [[145], [527], ["Siege Tank"], [""]],
+        [[160], [559], ["Siege Tank"], [""]],
+        [[174], [576], ["Command Center"], [""]]
+      ]
+    }
+  },
+
+  "Zerg": {
+    "hatchFirst": {
+      "name": "build 1 zerg",
+      "Description": "",
+      "Suite": "",
+      "bo": [
+        [[], [], [""], [""]],
+        [[], [], [""], [""]],
+        [[], [], [""], [""]]
+      ]
+    },
+    "fastRoach": {
+      "name": "build 2 zerg",
+      "Description": "",
+      "Suite": "",
+      "bo": [
+        [[], [], [""], [""]],
+        [[], [], [""], [""]],
+        [[], [], [""], [""]]
+      ]
+    }
+  },
+
+  "Protoss": {
+    "fourGates": {
+      "name": "build 1 toss",
+      "Description": "",
+      "Suite": "",
+      "bo": [
+        [[], [], [""], [""]],
+        [[], [], [""], [""]],
+        [[], [], [""], [""]]
+      ]
+    },
+    "proxyStargate": {
+      "name": "build 2 toss",
+      "Description": "",
+      "Suite": "",
+      "bo": [
+        [[], [], [""], [""]],
+        [[], [], [""], [""]],
+        [[], [], [""], [""]]
+      ]
+    }
+  }
+}

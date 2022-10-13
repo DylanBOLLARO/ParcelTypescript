@@ -1,0 +1,32 @@
+$color1: #c2c2c2;
+$color2: #222;
+$color3: #f5deb3;
+
+$gradient1: radial-gradient(#2c3e50, #000000);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btnFontWwesome {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid $color3;
+  margin: 0 5px;
+  background: $color2;
+  transition: 0.1s;
+  color: $color1;
+
+  &:active {
+    transform: scale(1.1);
+  }
+}

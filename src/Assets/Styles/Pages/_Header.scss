@@ -1,0 +1,34 @@
+header {
+  background: $gradient1;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: auto;
+
+  .search {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #f5deb3;
+    background: transparent;
+    padding-left: 10px;
+    color: #f5deb3;
+  }
+  .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .midle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
