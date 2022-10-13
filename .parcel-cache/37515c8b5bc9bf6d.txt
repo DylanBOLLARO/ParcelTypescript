@@ -7,7 +7,7 @@
 107C:\Users\bolla\Desktop\parcel-basics-master\node_modules\yargs\node_modules\yargs-parser\build\lib\index.js133101580693351372 0
 91C:\Users\bolla\Desktop\parcel-basics-master\node_modules\node-gyp\gyp\pylib\gyp\easy_xml.py133101580697310023 0
 91C:\Users\bolla\Desktop\parcel-basics-master\node_modules\read-pkg-up\node_modules\type-fest133101580694035277 1
-56C:\Users\bolla\Desktop\parcel-basics-master\package.json133101604206509949 0
+56C:\Users\bolla\Desktop\parcel-basics-master\package.json133101605754856141 0
 85C:\Users\bolla\Desktop\parcel-basics-master\node_modules\ajv\lib\dot\_limitLength.jst133101580696795846 0
 65C:\Users\bolla\Desktop\parcel-basics-master\node_modules\minizlib133101580691559247 1
 94C:\Users\bolla\Desktop\parcel-basics-master\node_modules\resolve\test\resolver\nested_symlinks133101580694629334 1
@@ -21,10 +21,10 @@
 79C:\Users\bolla\Desktop\parcel-basics-master\node_modules\nan\tools\package.json133101580695537868 0
 70C:\Users\bolla\Desktop\parcel-basics-master\node_modules\socks\LICENSE133101580685259356 0
 100C:\Users\bolla\Desktop\parcel-basics-master\node_modules\node-sass\test\fixtures\watching\index.scss133101580700969166 0
-48C:\Users\bolla\Desktop\parcel-basics-master\dist133101605056304344 1
+48C:\Users\bolla\Desktop\parcel-basics-master\dist133101610986049323 1
 109C:\Users\bolla\Desktop\parcel-basics-master\node_modules\readable-stream\lib\internal\streams\from-browser.js133101580694529485 0
 80C:\Users\bolla\Desktop\parcel-basics-master\node_modules\object-assign\readme.md133101580687595604 0
-54C:\Users\bolla\Desktop\parcel-basics-master\.gitignore133101579262816834 0
+54C:\Users\bolla\Desktop\parcel-basics-master\.gitignore133101606863995915 0
 82C:\Users\bolla\Desktop\parcel-basics-master\node_modules\semver\ranges\simplify.js133101580696211786 0
 61C:\Users\bolla\Desktop\parcel-basics-master\node_modules\y18n133101580693291479 1
 78C:\Users\bolla\Desktop\parcel-basics-master\node_modules\lodash\pullAllWith.js133101580704578364 0
@@ -50,7 +50,7 @@
 78C:\Users\bolla\Desktop\parcel-basics-master\node_modules\lodash\fp\contains.js133101580700699603 0
 75C:\Users\bolla\Desktop\parcel-basics-master\node_modules\negotiator\LICENSE133101580687715411 0
 63C:\Users\bolla\Desktop\parcel-basics-master\node_modules\wrappy133101580687341012 1
-58C:\Users\bolla\Desktop\parcel-basics-master\src\index.html133101576351621611 0
+58C:\Users\bolla\Desktop\parcel-basics-master\src\index.html133101611051611741 0
 79C:\Users\bolla\Desktop\parcel-basics-master\node_modules\form-data\package.json133101580684720218 0
 71C:\Users\bolla\Desktop\parcel-basics-master\node_modules\y18n\build\lib133101580689093215 1
 110C:\Users\bolla\Desktop\parcel-basics-master\node_modules\node-sass\test\fixtures\cwd-include-path\outside.scss133101580701009089 0
@@ -4390,4 +4390,4 @@
 67C:\Users\bolla\Desktop\parcel-basics-master\dist\index.08963856.css133101605055943002 0
 66C:\Users\bolla\Desktop\parcel-basics-master\dist\index.cff069f6.js133101605056264414 0
 70C:\Users\bolla\Desktop\parcel-basics-master\dist\index.cff069f6.js.map133101605056294356 0
-59C:\Users\bolla\Desktop\parcel-basics-master\dist\index.html133101605055957977 0
+59C:\Users\bolla\Desktop\parcel-basics-master\dist\index.html133101610986034475 0
